@@ -5,19 +5,27 @@ body {
 img {
   width: 100px;
   height: 100px;
+  align-self: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
-.images {
+.container {
   display: flex;
-  justify-content: space-around;
-  padding: 20px;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 16px 0px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
 }
 
 /* do not edit this footer */
@@ -31,36 +39,4 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
-}
-
-.img1 {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  width: 200px;
-}
-
-.img2 {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  width: 200px;
-}
-
-.img3 {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  width: 200px;
-}
-
-.img4 {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  width: 200px;
-}
-
-.text {
-  text-align: center;
 }

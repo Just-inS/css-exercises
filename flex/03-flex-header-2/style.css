@@ -13,26 +13,8 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-}
-
-.links {
-  display: flex;
-  padding-left: 10px;
-}
-
-.notifications {
-  display: flex;
-  margin-left: auto;
   align-items: center;
-}
-
-.profile-image {
-  display: flex;
-  align-self: center;
-}
-
-li {
-  padding: 0px 10px;
+  padding: 8px;
 }
 
 .profile-image {
@@ -41,7 +23,6 @@ li {
   border-radius: 50%;
   width: 48px;
   height: 48px;
-  margin-right: 8px;
 }
 
 .logo {
@@ -49,7 +30,6 @@ li {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  margin-left: 8px;
 }
 
 button {
@@ -58,17 +38,19 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  height: fit-content;
-  align-self: center;
-  margin-right: 8px;
+  margin-left: auto;
+  margin-right: 16px;
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  padding: 16px;
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  padding: 0px 0px 0px 16px;
 }
